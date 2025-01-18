@@ -233,7 +233,7 @@ class ItemListApp:
         text_area.insert(tk.END, items)
         text_area.configure(state='disabled')
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = ItemListApp(root)
-    root.mainloop()
+
+root = tk.Tk()
+app = ItemListApp(root)
+root.mainloop()
