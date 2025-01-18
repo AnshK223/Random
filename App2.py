@@ -90,7 +90,7 @@ class ItemListApp:
         self.name_entry = tk.Entry(self.entries_frame, textvariable=self.name_var)
         self.name_entry.grid(row=0, column=1)
 
-        tk.Label(self.entries_frame, text="Enter item stats (e.g., genre):").grid(row=1, column=0)
+        tk.Label(self.entries_frame, text="Enter item stats (e.g., Completed):").grid(row=1, column=0)
         self.stats_entry = tk.Entry(self.entries_frame, textvariable=self.stats_var)
         self.stats_entry.grid(row=1, column=1)
 
@@ -143,7 +143,7 @@ class ItemListApp:
             self.name_entry = tk.Entry(self.entries_frame, textvariable=self.name_var)
             self.name_entry.grid(row=0, column=1)
 
-            tk.Label(self.entries_frame, text="Update item stats (e.g., genre):").grid(row=1, column=0)
+            tk.Label(self.entries_frame, text="Update item stats (e.g., Completed):").grid(row=1, column=0)
             self.stats_var = tk.StringVar(value=current_stats)
             self.stats_entry = tk.Entry(self.entries_frame, textvariable=self.stats_var)
             self.stats_entry.grid(row=1, column=1)
